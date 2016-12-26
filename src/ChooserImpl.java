@@ -98,5 +98,5 @@ public class ChooserImpl<T> implements Chooser<T>{
 		}
 		return rtn;
 	}
-
+ 
 }
