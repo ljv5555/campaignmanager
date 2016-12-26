@@ -5,7 +5,7 @@
 * Under the src folder, ChooserImpl is the old implementation, ChooserImpl2 wraps the 
 apache implementation. 
 
-* test1 and test2 validate the old and new implementations have results where    (actual-25%) &lt; actual &lt; (actual+25%)
+* test1 and test2 validate the old and new implementations have results where    (expected-25%) &lt; actual &lt; (expected+25%)
 
 * the other annotated tests show the relative times taken with various collection sizes:
 
