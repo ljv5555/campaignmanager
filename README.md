@@ -1,14 +1,13 @@
-<!doctype html><html><head></head><body><pre>
 # campaignmanager
 
-Files found here include a Database Schema design (db_schema_info.txt). From that, I made simple POJOs and used Grails to generate the basic CRUD skeleton.
+* Files found here include a Database Schema design (db_schema_info.txt). From that, I made simple POJOs and used Grails to generate the basic CRUD skeleton.
 
-Under the src folder, ChooserImpl is the old implementation, ChooserImpl2 wraps the 
+* Under the src folder, ChooserImpl is the old implementation, ChooserImpl2 wraps the 
 apache implementation. 
 
-test1 and test2 validate the old and new implementations have results where    result-25% &lt; actual &lt; result+25%
+* test1 and test2 validate the old and new implementations have results where    result-25% &lt; actual &lt; result+25%
 
-the other annotated tests show the relative times taken with various collection sizes:
+* the other annotated tests show the relative times taken with various collection sizes:
 
 JUnit output: 
 
@@ -28,6 +27,3 @@ v2-collection size: 50, average choice time (ms): 22.654723999999998
 v2-collection size: 60, average choice time (ms): 22.997424
 v2-collection size: 70, average choice time (ms): 23.033338
 v2-collection size: 80, average choice time (ms): 23.382531999999998
-</pre>
-
-  </body></html>
