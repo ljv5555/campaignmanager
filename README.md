@@ -3,7 +3,7 @@
 * Files found here include a Database Schema design (db_schema_info.txt). From that, I made simple POJOs and used Grails to generate the basic CRUD skeleton.
 
 * Under the src folder, ChooserImpl is the old implementation, ChooserImpl2 wraps the 
-apache implementation, and ChooserImpl3 is my implementation.
+apache implementation, and ChooserImpl3 is my new implementation.
 
 * test1, test2 and test3 validate the old and new implementations have results within 25 percent of the expected value
 
